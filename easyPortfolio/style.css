@@ -1,24 +1,39 @@
 body{
-    background-color: gray;
+    background: #777;
+    color: #777;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+    width: 960px;
+    font-size: 18px;
 }
 .outShell{
-    position: relative center;
+    position: relative;
     width: 700px;
 }
 .lightGray{
-    background-color: lightgray;
-    margin: auto 0;
+    background: #ebebeb;
+    margin: auto 10px;
     text-align: center;
+    padding: 20px;
+    margin: 20px;
     position: absolute center;
 }
-section{
-    width: 70%;
-    float: left;
+article{
+    margin: auto 10px;
+    color: #ebebeb;
+    background: #777;
 }
 aside{
     width: 30%;
     float: left;
 }
 footer{
+    width: 90%;
     overflow: auto;
+}
+.leftSection{
+    float: left;
+    width: 70%;
+}
+.hp{
+    margin: auto 5px;
 }
