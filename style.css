@@ -7,33 +7,47 @@ body{
 }
 .outShell{
     position: relative;
-    width: 700px;
+    width: 100%;
 }
 .lightGray{
     background: #ebebeb;
-    margin: auto 10px;
     text-align: center;
-    padding: 20px;
-    margin: 20px;
-    position: absolute center;
+    padding: 30px;
+    margin: 10px;
 }
 article{
-    margin: auto 10px;
+    margin: 10px;
+    padding: 25px;
     color: #ebebeb;
     background: #777;
 }
 aside{
-    width: 30%;
+    /* width: 25%; */
     float: left;
+    /* position: relative; */
+    /* right: 0; */
 }
 footer{
-    width: 90%;
     overflow: auto;
+    margin: 10px;
+    position: relative;
 }
 .leftSection{
     float: left;
-    width: 70%;
+    width: 65%;
 }
 .hp{
-    margin: auto 5px;
+    margin: 10px;
+    padding: 25px;
+    color: #777;
+}
+.blank{
+    color: #ebebeb;
+    background-color: #ebebeb;
+    padding: 20px;
+    margin: 20px;
+}
+.innerFluff{
+    padding: 15px;
+    margin: 20px;
 }
