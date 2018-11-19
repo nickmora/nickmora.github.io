@@ -1,0 +1,88 @@
+body{
+    background-image: url("../images/oriental.png");
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 25px;
+    color: #e60d2e;
+}
+
+h1 {
+    padding-bottom: 20px;
+    padding-top: 30px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #dddddd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #e60d2e;
+  }
+
+.mainSection{
+    background: #ffffff;
+    padding: 30px;
+    margin: 120px 10px 40px 10px;
+    border: 1px solid #dddddd;
+}
+
+footer{
+    background-color: #e60d2e;
+    color: #ffffff;
+    height: 65px;
+    z-index: -5;
+    position: relative;
+}
+
+footer p{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #cccccc;
+    position: relative;
+    bottom: 0;
+
+}
+.innerFoot{
+    background-color: #666666;
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    padding-top: 15px;
+    z-index: 99;
+}
+
+.padded{
+    margin: 20px;
+}
+
+/* text banners on portfolio images */
+h2{
+    position: absolute;
+    left: 0;
+    bottom: 35px;
+    background-color: #e60d2e;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* transparency on portfolio images */
+.portImg{
+    opacity: 0.8;
+}
+
+/* margin around images for portfolio page */
+.spacing{
+    margin: 10px;
+}
+
+.testing{
+    max-width: 250px;
+}
